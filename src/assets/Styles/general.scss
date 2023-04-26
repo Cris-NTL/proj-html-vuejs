@@ -1,0 +1,19 @@
+// import style sheets
+@use './partials/variables' as c;
+@import 'bootstrap/scss/bootstrap';
+
+// reset rules
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
