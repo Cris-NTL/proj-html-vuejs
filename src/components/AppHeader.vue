@@ -2,6 +2,8 @@
 import AppJumbotron from './AppJumbotron.vue';
 
 export default {
+    name: 'AppHeader',
+    
     components: {
         AppJumbotron,
     },

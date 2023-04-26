@@ -2,6 +2,8 @@
 import AppSponsors from './AppSponsors.vue';
 
 export default {
+    name: 'AppJumbotron',
+    
     components: {
         AppSponsors,
     }

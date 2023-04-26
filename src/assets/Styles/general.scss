@@ -1,9 +1,9 @@
 // import style sheets
 @use './partials/variables' as c;
 @import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
 
 // reset rules
-
 * {
     padding: 0%;
     margin: 0%;

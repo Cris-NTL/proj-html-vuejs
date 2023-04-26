@@ -1,4 +1,8 @@
-<script></script>
+<script>
+export default {
+    name: 'AppSponsors',
+}
+</script>
 
 <template>
     <ul class="sponsors_list container p-0 mt-3 d-flex justify-content-center align-items-center gap-5">
