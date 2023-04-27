@@ -1,6 +1,6 @@
 <script>
-import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
+import AppHeader from './components/header/AppHeader.vue';
+import AppMain from './components/main/AppMain.vue';
 import Logo from './assets/img/dark-logo.png';
 
 export default {

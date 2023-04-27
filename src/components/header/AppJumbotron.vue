@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <section class="jumbo-container container mt-1 d-flex justify-content-evenly">
+    <section class="jumbo-container container mt-1 d-flex justify-content-evenly py-5">
         <div class="jumbo_text col-lg-4">
             <h1>Distant learning for further expansion</h1>
             <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching. Enjoy the
@@ -21,7 +21,7 @@ export default {
         </div>
 
         <div class="jumbo_img col-lg-8">
-            <img src="../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="aboutMeAvatar">
+            <img src="../../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="aboutMeAvatar">
         </div>
 
     </section>
@@ -30,5 +30,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/Styles/AppJumbotron.scss'
+@use '../../assets/Styles/AppJumbotron.scss'
 </style>

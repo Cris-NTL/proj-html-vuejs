@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <div class="text-center mb-5">
+    <div class="text-center mb-5 pt-5">
         <h6>MaxCoach Available Courses</h6>
         <h3>Access <span>Smart Tutoring</span> Program For Benefits.</h3>
     </div>
@@ -27,9 +27,12 @@ export default {
                     <div class="img_container mb-3">
                         <img :src="image" alt="course">
                     </div>
-                    <h5>Customize Preference</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at perspiciatis aut, adipisci ad a odit beatae nulla? Est, ipsa.</p>
-                    <a href="#">Start here -></a>
+                    <div>
+                        <h5>Customize Preference</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at perspiciatis aut, adipisci ad a
+                            odit beatae nulla? Est, ipsa.</p>
+                        <a href="#">Start here -></a>
+                    </div>
                 </div>
             </div>
         </div>

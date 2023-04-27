@@ -45,5 +45,5 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../assets/Styles/AppHeader.scss';
+@use '../../assets/Styles/AppHeader.scss';
 </style>

@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <div class="text-center mb-5">
+    <div class="text-center my-5">
         <h6>stimulated to learn?</h6>
         <h3>Featured Online Courses</h3>
     </div>
@@ -46,5 +46,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/Styles/AppCourses.scss'
+@use '../../assets/Styles/AppCourses.scss'
 </style>
