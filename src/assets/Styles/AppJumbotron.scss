@@ -5,5 +5,56 @@
 
     .jumbo_img {
         width: 300px;
+        position: relative;
+
+        img.avatar {
+            border-radius: 50%;
+            position: sticky;
+            z-index: 1;
+        }
+
+        .secondary_img {
+            width: 80px;
+            position: absolute;
+            top: 20%;
+        }
+
+        .tirtiary_img {
+            width: 90px;
+            position: absolute;
+            bottom: 0%;
+            right: 10%;
+        }
+
+        .quaternary_img {
+            width: 70px;
+            position: absolute;
+            left: -10%;
+            top: 20%;
+        }
+
+        .quinary_img {
+            width: 70px;
+            position: absolute;
+            left: -10%;
+            top: 50%;
+        }
+    }
+
+    .jumbo_text p {
+        color: c.$grtext-color;
+    }
+
+    button {
+        background-color: c.$secondary-color;
+        color: c.$default-color;
+    }
+
+    .link_question {
+        color: c.$grtext-color;
+    }
+
+    .link_download {
+        color: c.$secondary-color;
     }
 }

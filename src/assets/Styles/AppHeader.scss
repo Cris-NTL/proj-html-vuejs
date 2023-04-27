@@ -1,6 +1,22 @@
 @use './partials/variables' as c;
 
-.header_container {    
+.header_container {
     background-color: c.$default-color;
     height: 70px;
+
+    li {
+        font-weight: 400;   
+        
+        .chevron_arrow {
+            font-size: 0.5rem;
+        }
+    }
+
+    ul li:last-child i {
+        color: c.$secondary-color;
+    }
+
+    input {
+        background-color: c.$bg-color;
+    }
 }

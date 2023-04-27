@@ -1,9 +1,9 @@
 <script>
-import AppHeader from './components/header/AppHeader.vue';
+import AppHeader from './components/Header/AppHeader.vue';
 import AppMain from './components/main/AppMain.vue';
 import Logo from './assets/img/dark-logo.png';
 
-export default {
+export default{
   components: {
     AppHeader,
     AppMain,
@@ -14,17 +14,17 @@ export default {
       navItems: {
         logo: { src: Logo, alt: 'logoCompany' },
         links: [
-          { name: 'Home' },
-          { name: 'Pages' },
-          { name: 'Courses' },
-          { name: 'Features' },
-          { name: 'Blog' },
-          { name: 'Shop' },
+          { name: 'Home', iconClass: 'fas fa-chevron-down' },
+          { name: 'Pages', iconClass: 'fas fa-chevron-down' },
+          { name: 'Courses', iconClass: 'fas fa-chevron-down' },
+          { name: 'Features', iconClass: 'fas fa-chevron-down' },
+          { name: 'Blog', iconClass: 'fas fa-chevron-down' },
+          { name: 'Shop', iconClass: 'fas fa-chevron-down' },
         ],
         icons: [
-          { iconClass: 'bi bi-person' },
+          { iconClass: 'far fa-user-circle' },
         ],
-        input: { placeholder: 'Search...' },
+        input: { placeholder: ' Search...', iconClass: 'fas fa-search' },
       },
     };
   },

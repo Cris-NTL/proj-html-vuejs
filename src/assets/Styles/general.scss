@@ -1,7 +1,8 @@
 // import style sheets
 @use './partials/variables' as c;
 @import 'bootstrap/scss/bootstrap';
-@import 'bootstrap-icons/font/bootstrap-icons';
+@import "node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 // reset rules
 * {
@@ -12,6 +13,7 @@
 
 body {
     background-color: c.$bg-color;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 img {

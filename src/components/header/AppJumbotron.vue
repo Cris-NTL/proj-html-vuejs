@@ -3,7 +3,7 @@ import AppSponsors from './AppSponsors.vue';
 
 export default {
     name: 'AppJumbotron',
-    
+
     components: {
         AppSponsors,
     }
@@ -16,12 +16,24 @@ export default {
             <h1>Distant learning for further expansion</h1>
             <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching. Enjoy the
                 process.</p>
-            <button class="btn btn-primary">Download free guide</button><br>
-            <span>Have questions? <span>Get Free Sample</span></span>
+            <button class="btn mb-3 px-4 fw-bold">
+                <i class="fa-solid fa-download px-2"></i>
+                Download free guide
+            </button><br>
+            <span class="link_question fw-bold">Have questions?
+                <span class="link_download">Get Free Sample
+                    <i class="fa-solid fa-right-long"></i>
+                </span>
+            </span>
         </div>
 
         <div class="jumbo_img col-lg-8">
-            <img src="../../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="aboutMeAvatar">
+            <img class="avatar" src="../../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt="aboutMeAvatar">
+            <img class="secondary_img" src="../../assets/img/maxcoach-shape-02.png" alt="secondaryImage">
+            <img class="tirtiary_img" src="../../assets/img/maxcoach-shape-07.png" alt="tertiaryImage">
+            <img class="quaternary_img my-2" src="../../assets/img/maxcoach-shape-07-100x100.png" alt="quaternaryImage">
+            <img class="quinary_img my-2" src="../../assets/img/maxcoach-shape-07-100x100.png" alt="quinaryImage">
+            
         </div>
 
     </section>
