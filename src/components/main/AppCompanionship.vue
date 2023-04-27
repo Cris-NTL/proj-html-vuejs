@@ -10,6 +10,8 @@
             <img class="play" src="../../assets/img/icon-youtube-play.png" alt="aboutMeAvatar">
             <img class="secondary_img" src="../../assets/img/maxcoach-shape-07.png" alt="secondaryImg">
             <img class="tertiary_img" src="../../assets/img/maxcoach-shape-05.png" alt="tertiaryImg">
+            <div class="ms_ring"></div>
+            <div class="ms_jelly"></div>
         </div>
 
         <div class="companion_text col-lg-4 px-5">
