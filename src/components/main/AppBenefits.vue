@@ -17,8 +17,13 @@ export default {
 <template>
     <section class="benefits_section d-flex flex-column">
         <div class="text-center mb-5 pt-5">
-            <h6>MaxCoach Available Courses</h6>
-            <h3>Access <span>Smart Tutoring</span> Program For Benefits.</h3>
+            <h6>MAXCOACH AVAILABLE COURSES</h6>
+            <h3 class="fw-bold my-3">Access
+                <span class="fw-normal">
+                    Smart Tutoring
+                </span>
+                Program For Benefits.
+            </h3>
         </div>
 
         <div class="container px-5">
@@ -28,12 +33,10 @@ export default {
                         <div class="img_container mb-3">
                             <img :src="image" alt="course">
                         </div>
-                        <div>
-                            <h5>Customize Preference</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde at perspiciatis aut, adipisci
-                                ad a
-                                odit beatae nulla? Est, ipsa.</p>
-                            <a href="#">Start here -></a>
+                        <div class="benefits_details">
+                            <h5 class="fw-bold">Customize Preference</h5>
+                            <p>Learners are given the right to arrange and customize their study schedule and timetable based on preferences.</p>
+                            <a class="fw-bold" href="#">Start here <i class="fa-solid fa-right-long"></i></a>
                         </div>
                     </div>
                 </div>

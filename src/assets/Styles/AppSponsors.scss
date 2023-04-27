@@ -3,4 +3,8 @@
 .sponsors_list {
     background-color: c.$default-color;
     height: 110px;
+
+    img {
+        opacity: 0.5;
+    }
 }

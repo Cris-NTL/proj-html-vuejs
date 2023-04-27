@@ -41,8 +41,15 @@
         }
     }
 
-    .jumbo_text p {
-        color: c.$grtext-color;
+    .jumbo_text {
+
+        h1 {
+            color: c.$powder-color;
+        }
+        
+        p {
+            color: c.$grtext-color;
+        }
     }
 
     button {

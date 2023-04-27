@@ -1,7 +1,29 @@
 @use './partials/variables' as c;
 
 section {
+    background-color: c.$default-color;
     margin: 0 auto;
 
-    background-color: c.$default-color;
+    h3 {
+        color: c.$powder-color;
+    }
+
+    h6 {
+        color: c.$grtext-color;
+    }
+
+    span {
+        color: c.$secondary-color;
+    }
+
+    .benefits_details {
+
+        h5 {
+            color: c.$powder-color;
+        }
+
+        a {
+            color: c.$grtext-color;
+        }
+    }
 }

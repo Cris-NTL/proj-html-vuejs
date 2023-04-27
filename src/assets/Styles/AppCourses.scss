@@ -1,14 +1,48 @@
+@use './partials/variables' as c;
+
 section {
     width: 80%;
 
     .img_container {
         width: 50%;
     }
-    
+
     img {
         border-radius: 50%;
         width: 150px;
         height: 150px;
         object-fit: cover;
+    }
+
+    .text-center {
+        
+        h6 {
+            color: c.$grtext-color;
+        }
+
+        h3 {
+            color: c.$powder-color;
+        }
+
+    }
+
+    .course_details {
+
+        h5 {
+            color: c.$secondary-color;
+        }
+
+        h6 {
+            color: c.$powder-color;
+        }
+
+        span {
+            color: c.$grtext-color;
+        }
+    }
+
+    button {
+        background-color: c.$secondary-color;
+        color: c.$default-color;
     }
 }

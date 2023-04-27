@@ -7,11 +7,58 @@ section {
         position: relative;
         width: 500px;
 
+        img.avatar {
+            position: sticky;
+            z-index: 1;
+        }
+
         .play {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        .secondary_img {
+            width: 100px;
+            position: absolute;
+            bottom: -20%;
+            right: -2%;
+        }
+
+        .tertiary_img {
+            width: 120px;
+            position: absolute;
+            left: -10%;
+            top: 10%;
+        }
+    }
+
+    .companion_text {
+
+        span {
+            color: c.$grtext-color;
+        }
+
+        span:last-child {
+            color: c.$powder-color;
+        }
+
+        h2 {
+            color: c.$powder-color;
+        }
+
+        h2.fw-light {
+            color: c.$secondary-color;
+        }
+
+        p {
+            color: c.$grtext-color;
+        }
+
+        a {
+            color: c.$secondary-color;
         }
     }
 }

@@ -20,8 +20,8 @@ export default {
 <template>
     <section class="courses_section container">
         <div class="text-center my-5">
-            <h6>stimulated to learn?</h6>
-            <h3>Featured Online Courses</h3>
+            <h6>STIMULATED TO LEARN?</h6>
+            <h3 class="fw-bold">Featured Online Courses</h3>
         </div>
 
         <div class="container">
@@ -31,10 +31,17 @@ export default {
                         <div class="img_container">
                             <img :src="courseImages[col - 1]" alt="course">
                         </div>
-                        <div class="d-flex flex-wrap flex-column justify-content-lg-center mx-3">
-                            <h5>Free</h5>
-                            <h6>Learning to Write as a Professional Author</h6>
-                            <span>20 lessons</span><span>50 students</span>
+                        <div class="course_details d-flex flex-wrap flex-column justify-content-lg-center mx-3">
+                            <h5 class="fw-bold">Free</h5>
+                            <h6 class="fw-bold">Learning to Write as a Professional Author</h6>
+                            <span>
+                                <i class="fa-regular fa-file me-1"></i>
+                                20 lessons
+                                <span>
+                                    <i class="fa-regular fa-user mx-1"></i>
+                                    50 students
+                                </span>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -42,7 +49,10 @@ export default {
         </div>
 
         <div class="text-center mb-5">
-            <button class="btn btn-primary">View all courses -></button>
+            <button class="btn px-5 my-4 fw-bold">
+                View all courses
+                <i class="fa-solid fa-right-long"></i>
+            </button>
         </div>
     </section>
 </template>
