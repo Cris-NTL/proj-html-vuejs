@@ -1,4 +1,6 @@
-.header_container {
-    border: 1px solid red;
+@use './partials/variables' as c;
+
+.header_container {    
+    background-color: c.$default-color;
     height: 70px;
 }

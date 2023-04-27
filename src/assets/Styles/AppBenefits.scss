@@ -1,6 +1,7 @@
 @use './partials/variables' as c;
 
-.sponsors_list {
+section {
+    margin: 0 auto;
+
     background-color: c.$default-color;
-    height: 110px;
 }

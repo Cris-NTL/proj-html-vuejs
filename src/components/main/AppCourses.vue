@@ -18,31 +18,33 @@ export default {
 </script>
 
 <template>
-    <div class="text-center my-5">
-        <h6>stimulated to learn?</h6>
-        <h3>Featured Online Courses</h3>
-    </div>
+    <section class="courses_section container">
+        <div class="text-center my-5">
+            <h6>stimulated to learn?</h6>
+            <h3>Featured Online Courses</h3>
+        </div>
 
-    <div class="container px-5">
-        <div class="row d-flex flex-wrap">
-            <div class="col-12 col-md-6 mb-5" v-for="col in 6" :key="col">
-                <div class="d-flex justify-content-center">
-                    <div class="img_container">
-                        <img :src="courseImages[col - 1]" alt="course">
-                    </div>
-                    <div class="d-flex flex-wrap flex-column justify-content-lg-center mx-3">
-                        <h5>Free</h5>
-                        <h6>Learning to Write as a Professional Author</h6>
-                        <span>20 lessons</span><span>50 students</span>
+        <div class="container">
+            <div class="row d-flex flex-wrap">
+                <div class="col-12 col-md-6 mb-5" v-for="col in 6" :key="col">
+                    <div class="d-flex justify-content-center">
+                        <div class="img_container">
+                            <img :src="courseImages[col - 1]" alt="course">
+                        </div>
+                        <div class="d-flex flex-wrap flex-column justify-content-lg-center mx-3">
+                            <h5>Free</h5>
+                            <h6>Learning to Write as a Professional Author</h6>
+                            <span>20 lessons</span><span>50 students</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="text-center mb-5">
-        <button class="btn btn-primary">View all courses -></button>
-    </div>
+        <div class="text-center mb-5">
+            <button class="btn btn-primary">View all courses -></button>
+        </div>
+    </section>
 </template>
 
 <style lang="scss" scoped>

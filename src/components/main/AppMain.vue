@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <main class="container mt-5">
+    <main class= "mt-5">
         <AppCourses></AppCourses>
         <AppBenefits></AppBenefits>
         <AppCompanionship></AppCompanionship>

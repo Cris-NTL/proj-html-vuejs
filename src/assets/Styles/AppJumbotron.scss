@@ -1,5 +1,7 @@
+@use './partials/variables' as c;
+
 .jumbo-container {
-    border: 1px solid lightcoral;
+    background-color: c.$default-color;
 
     .jumbo_img {
         width: 300px;

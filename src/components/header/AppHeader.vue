@@ -19,7 +19,7 @@ export default {
 
 <template>
     <!-- header section -->
-    <header class="header_container container d-flex align-items-center">
+    <header class="header_container d-flex align-items-center justify-content-center">
         <nav class="d-flex align-items-center">
             <div class="col-lg-2">
                 <img :src="navItems.logo.src" alt="logoCompany">

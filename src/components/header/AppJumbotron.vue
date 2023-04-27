@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <section class="jumbo-container container mt-1 d-flex justify-content-evenly py-5">
+    <section class="jumbo-container d-flex justify-content-evenly py-5">
         <div class="jumbo_text col-lg-4">
             <h1>Distant learning for further expansion</h1>
             <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching. Enjoy the

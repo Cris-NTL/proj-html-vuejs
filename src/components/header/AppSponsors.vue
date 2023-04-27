@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <ul class="sponsors_list container d-flex justify-content-center align-items-center gap-5">
+    <ul class="sponsors_list d-flex justify-content-center align-items-center gap-5">
         <li>
             <img src="../../assets/img/client-logo-01.png" alt="clientLogo1">
         </li>
