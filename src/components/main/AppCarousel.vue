@@ -15,7 +15,7 @@ export default {
             {
                 title: 'High level of efficiency and scientific teaching methods',
                 content: 'I am free to learn at my own pace, follow my own schedule and choose the subject i want to learn from the syllabus. Great study portal fro people like me.',
-                img: './src/assets/img/testimonial-avata-01.jpg',
+                // img: './src/assets/img/testimonial-avata-01.jpg',
                 name: 'Mina Hollace',
                 role: '/ Freelancer',
             },
@@ -30,6 +30,13 @@ export default {
                 title: 'High level of efficiency and scientific teaching methods',
                 content: 'I am free to learn at my own pace, follow my own schedule and choose the subject i want to learn from the syllabus. Great study portal fro people like me.',
                 // img: './src/assets/img/testimonial-avata-03.jpg',
+                name: 'Mina Hollace',
+                role: '/ Freelancer',
+            },
+            {
+                title: 'High level of efficiency and scientific teaching methods',
+                content: 'I am free to learn at my own pace, follow my own schedule and choose the subject i want to learn from the syllabus. Great study portal fro people like me.',
+                // img: './src/assets/img/testimonial-avata-04.jpg',
                 name: 'Mina Hollace',
                 role: '/ Freelancer',
             },

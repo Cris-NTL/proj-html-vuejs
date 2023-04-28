@@ -5,15 +5,16 @@
     height: 300px;
     margin: 0 auto;
     padding: 0;
-    
+
     .slide {
         height: 300px;
+        opacity: 0.5;
     }
 
     .vueperslide__content-wrapper {
-        
+
         text-align: left !important;
-        
+
         .vueperslide__title {
             color: c.$powder-color;
             font-weight: bold;
@@ -23,6 +24,7 @@
         .vueperslide__content {
             color: c.$grtext-color;
         }
+
     }
 
     .vueperslides__arrow {
@@ -50,5 +52,9 @@
 
     .vueperslides__bullet--active {
         color: c.$powder-color;
+    }
+
+    .vueperslide--active {
+        opacity: 1;
     }
 }
