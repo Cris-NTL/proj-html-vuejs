@@ -39,7 +39,6 @@ export default {
             <img class="quaternary_img my-2" src="../../assets/img/maxcoach-shape-07-100x100.png" alt="quaternaryImage">
             <img class="quinary_img my-2" src="../../assets/img/maxcoach-shape-07-100x100.png" alt="quinaryImage">
             <div class="ms_ring"></div>
-            
         </div>
 
     </section>

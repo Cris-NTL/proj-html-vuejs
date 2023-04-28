@@ -26,6 +26,11 @@ section {
 
     }
 
+    .ms_card:hover {
+        background-color: c.$default-color;
+        cursor: pointer;
+    }
+
     .course_details {
 
         h5 {
@@ -44,5 +49,10 @@ section {
     button {
         background-color: c.$secondary-color;
         color: c.$default-color;
+
+        &:hover {
+            background-color: c.$powder-color;
+            color: c.$default-color;
+        }
     }
 }

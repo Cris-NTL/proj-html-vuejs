@@ -66,6 +66,10 @@
     button {
         background-color: c.$secondary-color;
         color: c.$default-color;
+
+        &:hover {
+            background-color: c.$powder-color;
+        }
     }
 
     .link_question {

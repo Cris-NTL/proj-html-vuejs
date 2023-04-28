@@ -32,8 +32,8 @@ export default {
         <div class="container">
             <div class="row d-flex flex-wrap">
                 <div class="col-12 col-md-6 mb-5" v-for="col in 6" :key="col">
-                    <div class="d-flex justify-content-center">
-                        <div class="img_container">
+                    <div class="ms_card d-flex justify-content-center">
+                        <div class="img_container p-3">
                             <img :src="courseImages[col - 1]" alt="course">
                         </div>
                         <div class="course_details d-flex flex-wrap flex-column justify-content-lg-center mx-3">
