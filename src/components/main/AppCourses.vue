@@ -18,12 +18,17 @@ export default {
 </script>
 
 <template>
+
+    <!-- courses section -->
     <section class="courses_section container">
+        
+        <!-- title + subtitle -->
         <div class="text-center my-5">
             <h6>STIMULATED TO LEARN?</h6>
             <h3 class="fw-bold">Featured Online Courses</h3>
         </div>
 
+        <!-- grid with cards -->
         <div class="container">
             <div class="row d-flex flex-wrap">
                 <div class="col-12 col-md-6 mb-5" v-for="col in 6" :key="col">
@@ -48,6 +53,7 @@ export default {
             </div>
         </div>
 
+        <!-- download button -->
         <div class="text-center mb-5">
             <button class="btn px-5 my-4 fw-bold">
                 View all courses

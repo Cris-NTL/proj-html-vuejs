@@ -15,7 +15,11 @@ export default {
 </script>
 
 <template>
+
+    <!-- benefits section -->
     <section class="benefits_section d-flex flex-column pb-5">
+        
+        <!-- title + subtitle -->
         <div class="text-center mb-5 pt-5">
             <h6>MAXCOACH AVAILABLE COURSES</h6>
             <h3 class="fw-bold my-3">Access
@@ -26,6 +30,7 @@ export default {
             </h3>
         </div>
 
+        <!-- card + image -->
         <div class="container px-5">
             <div class="row d-flex flex-wrap">
                 <div class="col-12 col-md-4 mb-5" v-for="(image, index) in benefitImages" :key="index">
@@ -33,6 +38,8 @@ export default {
                         <div class="img_container mb-3">
                             <img :src="image" alt="course">
                         </div>
+
+                        <!-- details -->
                         <div class="benefits_details">
                             <h5 class="fw-bold">Customize Preference</h5>
                             <p>Learners are given the right to arrange and customize their study schedule and timetable based on preferences.</p>

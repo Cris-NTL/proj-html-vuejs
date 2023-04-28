@@ -19,11 +19,11 @@ export default {
 
 <template>
     <section class="footer_section my-5">
-        <footer class="footer-dark py-5">
+        <footer class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="mb-3 font-weight-bold">{{ footerData.address.title }}</h3>
+                        <h3 class="mb-3">{{ footerData.address.title }}</h3>
                         <ul class="list-unstyled">
                             <li class="mb-2" v-for="(detail, index) in footerData.address.details" :key="index">{{ detail }}
                             </li>

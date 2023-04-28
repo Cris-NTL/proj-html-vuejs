@@ -5,8 +5,11 @@ export default {
 </script>
 
 <template>
+
+    <!-- companion section -->
     <section class="companion_section d-flex justify-content-evenly py-5">
 
+        <!-- avatar + images -->
         <div class="companion_img col-lg-8">
             <img class="avatar" src="../../assets/img/home-2-popup-video-poster.jpg" alt="aboutMeAvatar">
             <img class="play" src="../../assets/img/icon-youtube-play.png" alt="aboutMeAvatar">
@@ -16,6 +19,7 @@ export default {
             <div class="ms_jelly"></div>
         </div>
 
+        <!-- details -->
         <div class="companion_text col-lg-4 px-5">
             <span class="fw-bold">GET STARTED <span>EFFORTLESSLY</span> </span>
             <h2 class="fw-bold mb-0 mt-2">Enjoy Our <h2 class="fw-light">Companionship</h2>

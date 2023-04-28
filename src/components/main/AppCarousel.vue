@@ -52,6 +52,8 @@ export default {
 </script>
 
 <template>
+
+    <!-- carousel made with vueperslides -->
     <vueper-slides class="no-shadow" :visibleSlides="3" :slidePerView="1" :draggingDistance="70" :gap="10" :bullets="false">
         <vueper-slide class="slide" v-for="slide in slides" :key="slide.title">
             <div class="slide-content">

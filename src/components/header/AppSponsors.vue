@@ -5,6 +5,8 @@ export default {
 </script>
 
 <template>
+
+    <!-- list of images (sponsors) -->
     <ul class="sponsors_list d-flex justify-content-center align-items-center gap-5">
         <li>
             <img src="../../assets/img/client-logo-01.png" alt="clientLogo1">
