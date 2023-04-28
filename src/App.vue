@@ -1,12 +1,14 @@
 <script>
 import AppHeader from './components/Header/AppHeader.vue';
 import AppMain from './components/main/AppMain.vue';
+import AppFooter from './components/footer/AppFooter.vue';
 import Logo from './assets/img/dark-logo.png';
 
-export default{
+export default {
   components: {
     AppHeader,
     AppMain,
+    AppFooter,
   },
 
   data() {
@@ -26,6 +28,39 @@ export default{
         ],
         input: { placeholder: ' Search...', iconClass: 'fas fa-search' },
       },
+
+      footerData: {
+        address: {
+          title: 'Address',
+          details: [
+            '382 NE 191st ST # 87394 Miami, FL 33179-3899',
+            '+1(305) 547-9909 (9am - 5pm EST, Monday - Friday)',
+            'support@maxcoach.com'
+          ],
+          icons: [
+            { href: '#', class: 'fa-brands fa-facebook fa-bounce fa-2xl' },
+            { href: '#', class: 'fa-brands fa-twitter fa-bounce fa-2xl' },
+            { href: '#', class: 'fa-brands fa-square-instagram fa-bounce fa-2xl' },
+            { href: '#', class: 'fa-brands fa-linkedin fa-bounce fa-2xl' }
+          ]
+        },
+        links: [
+          {
+            title: 'Explore',
+            items: ['Start here', 'Blog', 'About us']
+          },
+          {
+            title: '---',
+            items: ['Success story', 'Courses', 'Contact us']
+          },
+          {
+            title: 'Information',
+            items: ['Merchandising', 'Purchase guide', 'Privacy policy', 'Terms of services']
+          }
+        ],
+        copyright: '© 2020 Maxcoach. All Rights Reserved'
+      }
+
     };
   },
 };
@@ -34,6 +69,7 @@ export default{
 <template>
   <AppHeader :navItems="navItems"></AppHeader>
   <AppMain></AppMain>
+  <AppFooter :footerData="footerData"></AppFooter>
 </template>
 
 <style lang="scss">

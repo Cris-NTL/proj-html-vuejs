@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <section class="benefits_section d-flex flex-column">
+    <section class="benefits_section d-flex flex-column pb-5">
         <div class="text-center mb-5 pt-5">
             <h6>MAXCOACH AVAILABLE COURSES</h6>
             <h3 class="fw-bold my-3">Access

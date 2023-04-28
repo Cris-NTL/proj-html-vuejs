@@ -1,0 +1,29 @@
+@use './partials/variables' as c;
+
+
+.footer_section {
+    background-color: c.$bg-color;
+    color: c.$powder-color;
+
+    .ms_icons a {
+        color: c.$grtext-color;
+    }
+
+    a {
+        color: c.$grtext-color;
+    }
+
+    p {
+        color: c.$grtext-color;
+    }
+
+    button {
+        background-color: c.$secondary-color;
+        color: c.$default-color;
+        position: absolute;
+        right: 1%;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+}

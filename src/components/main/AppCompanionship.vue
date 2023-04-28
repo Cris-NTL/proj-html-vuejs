@@ -1,5 +1,7 @@
 <script>
-
+export default {
+    name: 'AppCompanionship'
+}   
 </script>
 
 <template>
@@ -18,7 +20,8 @@
             <span class="fw-bold">GET STARTED <span>EFFORTLESSLY</span> </span>
             <h2 class="fw-bold mb-0 mt-2">Enjoy Our <h2 class="fw-light">Companionship</h2>
             </h2>
-            <p class="mb-5">Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some hidden
+            <p class="mb-5">Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for
+                some hidden
                 hints of early-bird rewards as well.</p>
             <a class="fw-bold" href="#">Download free guidebook <i class="fa-solid fa-right-long"></i></a>
         </div>

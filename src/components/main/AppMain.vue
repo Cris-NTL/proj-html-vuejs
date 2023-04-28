@@ -2,6 +2,7 @@
 import AppCourses from './AppCourses.vue';
 import AppBenefits from './AppBenefits.vue';
 import AppCompanionship from './AppCompanionship.vue';
+import AppLearners from './AppLearners.vue';
 
 export default {
     name: 'AppMain',
@@ -10,6 +11,7 @@ export default {
         AppCourses,
         AppBenefits,
         AppCompanionship,
+        AppLearners,
     },
 
 }
@@ -20,6 +22,7 @@ export default {
         <AppCourses></AppCourses>
         <AppBenefits></AppBenefits>
         <AppCompanionship></AppCompanionship>
+        <AppLearners></AppLearners>
     </main>
 </template>
 

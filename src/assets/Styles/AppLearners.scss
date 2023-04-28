@@ -1,0 +1,17 @@
+@use './partials/variables' as c;
+
+
+section {
+    
+    h3 {
+        color: c.$powder-color;
+    }
+    
+    h6 {
+        color: c.$grtext-color;
+    }
+    
+    span {
+        color: c.$secondary-color;
+    }
+}
