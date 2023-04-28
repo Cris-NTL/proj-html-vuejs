@@ -55,18 +55,6 @@ export default {
         <vueper-slide class="slide" v-for="slide in slides" :key="slide" :title="slide.title" :content="slide.content">
         </vueper-slide>
     </vueper-slides>
-
-
-    <!-- <ul>
-        <li v-for="slide in slides" :key="slide.title">
-            <h5>{{ slide.title }}</h5>
-            <p>{{ slide.content }}</p>
-            <img class="profile-image" :src="slide.img" :alt="slide.name">
-            <h6>{{ slide.name }}</h6>
-            <span>{{ slide.role }}</span>
-        </li>
-    </ul> -->
-
 </template>
 
 <style lang="scss">
