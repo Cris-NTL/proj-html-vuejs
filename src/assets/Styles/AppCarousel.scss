@@ -5,14 +5,42 @@
     height: 300px;
     margin: 0 auto;
     padding: 0;
-
+    
     .slide {
         height: 300px;
+    }
+
+    .vueperslide__content-wrapper {
+        
+        text-align: left !important;
+        
+        .vueperslide__title {
+            color: c.$powder-color;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .vueperslide__content {
+            color: c.$grtext-color;
+        }
     }
 
     .vueperslides__arrow {
         top: 40% !important;
         transform: translateY(-50%) !important;
+    }
+
+    .vueperslides__parallax-wrapper {
+        padding-bottom: 0% !important;
+        height: 300px;
+    }
+
+    .vueperslides__track {
+        height: 300px;
+    }
+
+    .vueperslides__track-inner {
+        height: 300px;
     }
 
     .profile-image {

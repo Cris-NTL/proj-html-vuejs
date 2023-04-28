@@ -15,7 +15,7 @@ export default {
             {
                 title: 'High level of efficiency and scientific teaching methods',
                 content: 'I am free to learn at my own pace, follow my own schedule and choose the subject i want to learn from the syllabus. Great study portal fro people like me.',
-                // img: './src/assets/img/testimonial-avata-01.jpg',
+                img: './src/assets/img/testimonial-avata-01.jpg',
                 name: 'Mina Hollace',
                 role: '/ Freelancer',
             },
@@ -51,7 +51,7 @@ export default {
 <template>
 
     <!-- carousel made with vueperslides -->
-    <vueper-slides class="no-shadow" :visibleSlides="3" :slidePerView="1" :draggingDistance="70" :gap="10" :bullets="true">
+    <vueper-slides class="no-shadow" :visibleSlides="3" :slidePerView="1" :draggingDistance="70" :gap="5" :bullets="true" :arrows="false">
         <vueper-slide class="slide" v-for="slide in slides" :key="slide" :title="slide.title" :content="slide.content">
         </vueper-slide>
     </vueper-slides>
