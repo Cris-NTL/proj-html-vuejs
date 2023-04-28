@@ -35,7 +35,7 @@ export default {
     </section>
 
     <!-- get started section -->
-    <section class="ms_started d-flex justify-content-center mt-5">
+    <section class="ms_started d-flex justify-content-center mt-5 pt-5">
         <div class="wrapper text-center">
             <img class="secondary_img" src="../../assets/img/maxcoach-shape-01.png" alt="secondaryImage">
             <div class="ms_ring"></div>
