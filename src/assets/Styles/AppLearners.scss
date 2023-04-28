@@ -2,16 +2,51 @@
 
 
 section {
-    
+
     h3 {
         color: c.$powder-color;
     }
-    
+
     h6 {
         color: c.$grtext-color;
     }
-    
+
     span {
         color: c.$secondary-color;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    button {
+        background-color: c.$secondary-color;
+        color: c.$default-color;
+
+        &:hover {
+            background-color: c.$powder-color;
+        }
+    }
+
+    .secondary_img {
+        position: absolute;
+        left: -25%;
+    }
+
+    .tertiary_img {
+        width: 80px;
+        position: absolute;
+        right: -20%;
+        bottom: -20%;
+    }
+
+    .ms_ring {
+        height: 40px;
+        width: 40px;
+        border: 4px solid #ffbe6b;
+        border-radius: 50%;
+        position: absolute;
+        top: -30%;
+        left: -25%;
     }
 }
