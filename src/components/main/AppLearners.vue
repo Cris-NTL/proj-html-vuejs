@@ -17,7 +17,7 @@ export default {
     <section class="learners_section d-flex flex-column py-5">
 
         <!-- title + subtitle -->
-        <div class="text-center mb-5 pt-5">
+        <div class="text-center pt-5">
             <h6>GREAT WORDS ABOUT MAXCOACH</h6>
             <h3 class="fw-bold my-3">
                 Our
