@@ -30,8 +30,6 @@ export default {
 
         <!-- carousel component -->
         <AppCarousel></AppCarousel>
-        
-        
     </section>
 
     <!-- get started section -->
@@ -41,7 +39,7 @@ export default {
             <div class="ms_ring"></div>
             <img class="tertiary_img" src="../../assets/img/maxcoach-shape-02.png" alt="tertiaryImage">
             <h5>Start today for getting <span>Online Certification</span></h5>
-            <h3 class="mb-4">You can be your own guiding star wirh our help!</h3>
+            <h3 class="mb-4">You can be your own guiding star with our help!</h3>
             <button class="btn">Get started now</button>
         </div>
     </section>

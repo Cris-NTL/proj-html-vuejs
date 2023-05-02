@@ -1,5 +1,5 @@
 <script>
-import AppHeader from './components/Header/AppHeader.vue';
+import AppHeader from './components/header/AppHeader.vue';
 import AppMain from './components/main/AppMain.vue';
 import AppFooter from './components/footer/AppFooter.vue';
 import Logo from './assets/img/dark-logo.png';
